@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lora_based_fine_tuning"
+version = "0.1.0"
+description = ""
+authors = ["Sangh0 <hop7311@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.45.1"
+datasets = "^3.0.1"
+peft = "^0.13.0"
+trl = "^0.11.1"
+bitsandbytes = "0.42.0"
+unsloth = {git = "https://github.com/unslothai/unsloth.git", extras = ["colab-new"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
