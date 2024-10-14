@@ -41,7 +41,7 @@ def get_unsloth_lora_model(
     bias: str = "none",
     target_modules: Union[List[str], str] = ["q_proj", "v_proj"],
 ):
-    """
+    """Use the unsloth framework to load a LoRA adapter.
     Args:
         model: The model to load used unsloth.
         lora_r: The number of tensor parallelism.
