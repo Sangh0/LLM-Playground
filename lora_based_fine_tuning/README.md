@@ -3,7 +3,7 @@
 ### Features
 
 1. **LLM Fine-Tuning with LoRA, DoRA, and AdaLoRA**:
-   - Fine-tune large language models using parameter-efficient methods such as LoRA (Low-Rank Adaptation), DoRA (Distributed Low-Rank Adaptation), and AdaLoRA (Adaptive Low-Rank Adaptation).
+   - Fine-tune large language models using parameter-efficient methods such as [`LoRA`](https://arxiv.org/abs/2106.09685), [`DoRA`](https://arxiv.org/abs/2402.09353), and [`AdaLoRA`](https://arxiv.org/abs/2303.10512).
 
 2. **Quantization with `bitsandbytes`**:
    - Supports model quantization during training to reduce memory consumption and accelerate inference.
@@ -50,4 +50,3 @@ If you prefer to use `pip` and a `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
-
